@@ -1,0 +1,55 @@
+{%load static%}
+<!DOCTYPE html>
+<head>
+    <title>QuizLet - Science</title>
+    <link rel = "stylesheet" href = "static/geography.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <style>
+        .score{
+            display:flex;
+            justify-content:center;
+            align-items: center;
+            font-size: 1rem;
+            background-color: rgb(95, 3, 3);
+            color: white;
+            padding: 1rem;
+            border-radius: 0.25rem;
+            width: 92%;
+            font-family: "Nunito", sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class = "quizcent">
+        <div class = "quizbox">
+            <div class = "ichiban" id = "ichiban">
+                <div class = "contents">
+                    <h4 id = "score" class = "score"></h4>
+                    <p id = "question" class = "question">Question</p>
+                    <div class = "answers">
+                        <button id = "ans1">A</button>
+                        <button id = "ans2">B</button>
+                        <button id = "ans3">C</button>
+                        <button id = "ans4">D</button>
+                    </div>
+                </div>
+                <button class = "submit" id = "submit">Next</button>
+            </div>
+           
+            <div class = "niban" >
+                <div class = "end" id = "niban">
+                    <p id = "endscore"> Your score is </p>
+                    <a href = "{%url 'home'%}">
+                        <button>Go Back to Home</button>
+                    </a>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <script src = "static/science.js"></script>
+
+</body>

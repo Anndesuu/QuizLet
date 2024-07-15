@@ -1,0 +1,45 @@
+body{
+    background-image: url('/static/images/quizbg.jpg');
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.entername{
+    width: 50%;
+    margin-left: 50%;
+    text-align: center;
+}
+
+.entername h1{
+    font-size: 7rem;
+    font-family: 'Nunito', sans-serif;
+    color:rgb(2, 32, 2);
+}
+
+.entername p{
+    font-size: 2rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+.entername input{
+    font-size: 2rem;
+    width: 80%;
+    margin-bottom: 0.75rem;
+    text-align: center;
+    border-radius: 0.75rem;
+    padding: 0.5rem;
+}
+
+.entername button{
+    font-size: 1.5rem;
+    background-color: rgb(2, 63, 2);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 0.8rem;
+}
+
+

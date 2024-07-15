@@ -1,0 +1,45 @@
+a{
+    color: transparent;
+}
+
+body{
+    background-color: rgb(3, 3, 48);
+}
+.choosebody{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choose{
+    background-color: white;
+    color: black;
+    padding: 1.5rem 4rem 1.5rem 4rem;
+    margin-top: 5%;
+    border-radius: 0.5rem;
+}
+
+button{
+    width: 100%;
+    text-align: center;
+    padding: 0.75rem;
+    margin-bottom: 0.25rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+}
+
+button:hover{
+    background-color: rgb(2, 61, 2);
+    color: white;
+    transition: 0.3s ease;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+p{
+    font-size: 1.25rem;
+    text-align: center;
+}

@@ -1,0 +1,39 @@
+{%load static%}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mini Quiz Site</title>
+        <link rel = "stylesheet" href = "static/welcome.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+        <style>
+            @media (max-width: 694px) {
+                body{
+                    height: 100vh;
+                }
+                .entername{
+                    margin-top: 20%;
+                    width: 60%;
+                    margin-left: 40%;
+                }
+            }
+
+        </style>
+    </head>
+    <body>
+        <div>
+            <div class = "entername">
+                <h1>QuizLet</h1>
+                <p>Mini quizzes to test your knowledge</p>
+                <!-- <p>Enter your Name:</p>
+                <input type = "text"> -->
+                <a href = "{%url 'category'%}">
+                    <button>Start Quiz</button>
+                </a>
+                
+            </div>
+        </div>
+    </body>
+</html>
